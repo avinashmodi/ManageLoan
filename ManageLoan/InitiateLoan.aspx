@@ -19,7 +19,7 @@
     <script src="Scripts/WebForms/MSAjax/MicrosoftAjaxApplicationServices.js"></script>
     <script src="Scripts/WebForms/MSAjax/MicrosoftAjaxTimer.js"></script>
     <script src="Scripts/WebForms/MSAjax/MicrosoftAjaxWebForms.js"></script>
-    <script src="Scripts/InititateLoan.js"></script>
+    <script src="Scripts/InitiateLoan.js"></script>
 
     <div class="container-fluid" style="background-color: #7ec3f1">
         <h1 style="line-height: 3">Manage Loan</h1>
@@ -74,7 +74,7 @@
                 <input type="text" class="form-control" runat="server" style="margin-left: 20px" id="ClientNumber" placeholder="">
                 <%--</div>--%>
                 <div class="input-group-append">
-                    <button class="btn btn-outline-secondary" runat="server" id="btnGetClientDetails"  type="button">Get Client details</button>
+                    <button class="btn btn-outline-secondary" runat="server" id="btnGetClientDetails" type="button">Get Client details</button>
                     <%--<asp:Button class="btn btn-outline-secondary" runat="server" ID="btnGetClientDetails" Text="Get Client details" OnClick="btnGetClientDetails_Click" /></asp:button>--%>
                 </div>
             </div>
